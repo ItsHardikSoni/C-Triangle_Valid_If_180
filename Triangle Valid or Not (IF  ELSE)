@@ -1,0 +1,16 @@
+/* Sum of Three Side of a triangle and check triangle is valid or not */
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+    int a1, a2, a3, sum;
+    printf("Enter Three Sides of a Triangler : \n");
+    scanf("%d %d %d", &a1, &a2, &a3);
+    sum = a1 + a2 + a3;
+
+    if (sum<=180)
+        printf("Valid Triangle");
+    else
+        printf("Not Valid Triangle");
+    return 0;
+}
